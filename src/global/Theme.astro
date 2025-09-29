@@ -1,5 +1,7 @@
 ---
-
+// we can import fonts here, after installing them via Fontsource
+// see https://fontsource.org/docs/installation for instructions
+import "@fontsource/karla";
 ---
 
 <style is:global>
@@ -9,6 +11,9 @@
     --color-text: rgb(240, 240, 240);
     --color-accent: rgb(0, 200, 255);
     --color-focus-ring: rgb(255, 0, 255);
+
+    --font-body: "Karla", sans-serif;
+    --font-headings: "Karla", sans-serif;
 
     font-size: 18px;
 
@@ -21,6 +26,7 @@
   body {
     background-color: var(--color-background);
     color: var(--color-text);
+    font-family: var(--font-body);
   }
   h1,
   h2,
