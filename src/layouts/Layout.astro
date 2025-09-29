@@ -17,7 +17,14 @@ import Theme from "../global/Theme.astro";
 </head>
 <body>
   <SkipLink />
+  <!--
+  if you are going to use a nav, it should go here, 
+  between the skip link and the <main> tag
+   -->
   <main id="main-content">
     <slot />
   </main>
+  <!--
+  if you are going to use a footer, it should go here
+   -->
 </body>
