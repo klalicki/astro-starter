@@ -1,10 +1,15 @@
-# Astro Starter Kit: Minimal
+# Astro Starter Kit: Minimal-ish
 
-```sh
-npm create astro@latest -- --template minimal
-```
+This is Kristoff's minimal-ish starter template for [Astro](https://astro.build).
+It includes a few extras to help you get started, but is still very minimal.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## ✨ Features
+
+- `<Container>` component to center your content and provide padding
+- `<SkipLink>` component for accessibility
+- Global CSS reset
+- Starter theme with CSS variables
+- Pre-configured import aliases for `@components`, `@layouts`, `@assets`
 
 ## 🚀 Project Structure
 
