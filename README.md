@@ -9,7 +9,13 @@ It includes a few extras to help you get started, but is still very minimal.
 - `<SkipLink>` component for accessibility
 - Global CSS reset
 - Starter theme with CSS variables
-- Pre-configured import aliases for `@components`, `@layouts`, `@assets`
+- Pre-configured import aliases for `@components`, `@layouts`, `@assets`, and `@content`
+- Samples showing the following:
+  - importing & using an image
+  - importing & using a component
+  - importing & using a Markdown file as a component
+  - using CSS variables for theming
+  - importing and using a Google Font with `@fontsource`
 
 ## 🚀 Project Structure
 
